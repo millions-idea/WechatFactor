@@ -1,0 +1,39 @@
+.grace-list .items .title .foot {
+  float: none !important;
+  margin-left: 100rpx !important;
+  font-size: 13px !important;
+  color: #000000;
+}
+.grace-list .items .title {
+  margin-left: 0px;
+  color: #9A9A9A !important;
+  font-size: 14px;
+  border-bottom: 1px solid #f3f3f3 !important;
+}
+.black {
+  color: #000000 !important;
+}
+.gray {
+  color: #9A9A9A !important;
+}
+.green {
+  color: #0EA295 !important;
+}
+.grace-list .items .title .head {
+  width: 90rpx;
+  float: left;
+}
+.icon-qrcode {
+  font-size: 19px;
+  font-style: normal;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  width: 30px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  color: #B2B2B6;
+}
+
