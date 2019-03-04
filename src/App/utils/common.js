@@ -14,8 +14,13 @@ export default{
 	},
 	
 	String: {
-		toUpperCaseFirst: (text) => {
+		//首字母转大写
+		toUpperCaseFirst(text){
 			return text.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase());  
+		},
+		//断文器-超出多少字符显示省略号
+		textLimit(text, limit){
+			return text.length > limit ? text.substr(0, limit) + "..." : text;
 		}
 	}
 }

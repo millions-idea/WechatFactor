@@ -6,7 +6,7 @@
 
 <script>
 	export default{
-		name: "article-bg",
+		name: "articleBg",
 		props: {
 			iconName: ""
 		},
@@ -20,7 +20,7 @@
 
 <style lang="less">
 	page{
-		 background-image: url("~@/static/user/common_bg.png");
+		 background-image: url("../../static/user/common_bg.png");
 		 background-repeat: no-repeat;
 		 background-size: 100%;
 		 background-color: #fff;

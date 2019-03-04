@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App'
 
-import store from './store'
-import localStore from './store/localStore'
+import store from './store/index.js'
+import localStore from './store/localStore.js'
 
 import common from "@/utils/common"
 import api from '@/common/vmeitime-http/'

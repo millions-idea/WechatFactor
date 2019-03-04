@@ -8,11 +8,11 @@
 				<view class="title">开通钻石会员<i class="red-point"></i><text class="green">赚佣金</text></view>
 				<view class="arrow-right"></view>
 			</navigator> 			
-			<navigator class='items' url="./wechat">
+			<navigator class='items' url="../bill/index">
 				<view class="icons">
 					<image class="icon" src="../../../static/user/income.png"></image>
 				</view>
-				<view class="title">我的收益<text>0.00元</text></view>
+				<view class="title">零钱明细</view>
 				<view class="arrow-right"></view>
 			</navigator> 
 		</view>

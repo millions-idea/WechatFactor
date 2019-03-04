@@ -2,26 +2,26 @@
 	<view>
 		<view class="blank-line-20"></view>
 
-		<view v-if="this.topLabel.length > 0">
-			<text>{{ this.topLabel }}</text>
+		<view v-if="topLabel.length > 0">
+			<text>{{ topLabel }}</text>
 			<view class="blank-line-20"></view>
 		</view>
 		<view>
 			<input
 				name="input"
-				:placeholder="this.placeholder"
-				:maxlength="this.maxLength"
-				:minLength="this.minLength"
-				:value="this.value"
+				:placeholder="placeholder"
+				:maxlength="maxLength"
+				:minLength="minLength"
+				:value="value"
 				@input="onKeyInput"
-				:type="this.type"
+				:type="type"
 				focus
 			/>
 		</view>
-		<view class="bottom-label-container" v-if="this.bottomLabel.length > 0">
+		<view class="bottom-label-container" v-if="bottomLabel.length > 0">
 			<view class="blank-line-20"></view>
 			<view class="bottom-label-border">
-				<text class="bottom-label">{{ this.bottomLabel }}</text>
+				<text class="bottom-label">{{ bottomLabel }}</text>
 			</view>
 		</view>
 	</view>
@@ -45,6 +45,9 @@ export default {
 			changeValue: '',
 			delta: 1
 		};
+	},
+	computed:{
+		
 	},
 	components: {},
 	onLoad(option) {

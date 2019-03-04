@@ -1,6 +1,5 @@
 <script>
-	
-export default { 
+export default {
 	onLaunch: function() {
 		console.log('App Launch');
 	},
@@ -12,23 +11,23 @@ export default {
 	},
 	//vuex页面刷新后数据丢失解决方案,监听webview刷新事件
 	mounted: function() {
-		
 		// #ifdef H5
-			window.addEventListener('unload', this.saveState);
+		window.addEventListener('unload', this.saveState);
 		// #endif
-		
-		
 	},
-	onUnload: function(){
-		console.log("App unload")
+	onUnload: function() {
+		console.log('App unload');
 		// #ifdef APP-PLUS
-			this.saveState();
+		this.saveState();
 		// #endif
-	}, 
-	methods: { 
+	},
+	methods: {
 		saveState() {
-			console.log("app_save_state::" + JSON.stringify(this.$store.state));
-			localStore.setValue('state', JSON.stringify(this.$store.state));
+			try{
+				uni.setStorageSync('state', JSON.stringify(this.$store.state));
+			}catch(e){
+				
+			}
 		}
 	}
 };

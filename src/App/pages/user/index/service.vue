@@ -6,7 +6,7 @@
 		</view>
 		<view v-else>
 			<!-- 这里显示内容 -->
-			<article-bg iconName="icon-icon_wechat"></article-bg>
+			<articleBg iconName="icon-icon_wechat"></articleBg>
 
 			<view class="container" :style="{ padding: '40px' }"> 
 				<view><rich-text class="content" :nodes="html"></rich-text></view>
@@ -28,8 +28,8 @@
 
 <script>
 	import mhtLoader from "@/components/mht-loader/mht-loader.vue";
-	import articleBg from "@/components/static-article-bg/static-article-bg.vue";
-	
+	import articleBg from "@/components/stack-article-bg/stack-article-bg.vue";
+
 	export default {
 		components: {
 			mhtLoader,

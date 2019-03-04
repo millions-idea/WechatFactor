@@ -15,7 +15,9 @@
     "pages/user/index/payment",
     "pages/user/index/wechat",
     "pages/community/index/index",
-    "pages/promotion/promotion"
+    "pages/promotion/promotion",
+    "pages/user/bill/index",
+    "pages/user/order/index"
   ],
   "subPackages": [],
   "window": {

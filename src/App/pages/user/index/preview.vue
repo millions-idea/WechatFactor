@@ -66,7 +66,7 @@
 
 <script>
 	import { mapState, mapActions } from 'vuex';
-	import lazyImage from "@/components/lazy-image.vue"
+	import lazyImage from "@/components/lazy-image.vue";
 
 	export default {
 		name: "preview",

@@ -1,2 +1,15 @@
 <import src="/components/mht-loader/mht-loader.vue.wxml" />
+<import src="/pages/user/index/preview.vue.wxml" />
+<import src="/pages/user/index/navigation.vue.wxml" />
+<import src="/pages/user/index/list.vue.wxml" />
+<import src="/components/stack-article-bg/stack-article-bg.vue.wxml" />
+<import src="/graceUI/components/graceSafeyNumberKeyboard.vue.wxml" />
+<import src="/components/uni-nav-bar/uni-nav-bar.vue.wxml" />
+<import src="/components/stack-empty/stack-empty.vue.wxml" />
+<import src="/graceUI/components/graceLoading.vue.wxml" />
+<import src="/components/uni-grid/uni-grid.user.vue.wxml" />
+<import src="/components/lazy-image.vue.wxml" />
+<import src="/components/uni-status-bar/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/common/slots.wxml" />
 
