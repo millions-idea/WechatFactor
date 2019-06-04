@@ -1,2 +1,0 @@
-<import src="./generics-form.vue.wxml" />
-    <template is="31255d52" data="{{ ...$root['0'], $root }}"/>

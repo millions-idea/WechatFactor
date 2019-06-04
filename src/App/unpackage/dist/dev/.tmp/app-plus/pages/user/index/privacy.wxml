@@ -1,2 +1,0 @@
-<import src="./privacy.vue.wxml" />
-    <template is="726bd8ea" data="{{ ...$root['0'], $root }}"/>

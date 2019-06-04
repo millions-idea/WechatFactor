@@ -1,1 +1,0 @@
-<template name="56892421"><view class="_view 56892421 emptyView"><image src="../../../static/data/empty.png" mode="aspectFit" class="_image 56892421 icon" style=" {{('height:' + (height + 'px') + ';')}}"></image><text class="_text 56892421 label">{{label}}</text></view></template>
